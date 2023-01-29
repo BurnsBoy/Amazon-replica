@@ -1,0 +1,93 @@
+*{
+    /* border: 1px solid red; */
+    width: 450px;
+    margin:auto;
+    flex-direction: row;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+
+h1{
+    margin-top: 7px;
+    margin-left: 25px;
+    margin-bottom: 10px;
+    font-weight: 100;
+}
+
+label{
+    margin-left: 25px;
+    font-size: 14px;
+}
+input{
+    height: 30px;
+    margin-left: 25px;
+    width: 395px;
+    margin-bottom: 25px;
+    margin-top: 10px;
+    font-size: 17px;
+}
+button{
+    height: 30px;
+    margin-left: 24px;
+    width: 404px;
+    margin-bottom: 30px;
+    margin-top: 5px;
+    font-size: 14px;
+}
+.box{
+    border: 1px solid lightgray;
+    border-radius: 1%;
+    margin-top: 50%;
+    height: 340px;
+}
+.help-button{
+    text-decoration: none;
+    margin-left: 45px;
+    padding-bottom: 100px;
+}
+.continue-button{
+    background-color: #f7c548;
+    border: 1px solid gray;
+    border-radius: 2px;
+}
+.password{
+    margin-left:75px
+}
+.forgot-password{
+    text-decoration: none;
+    margin-left: 160px;
+}
+h3{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 100;
+    color: #888;
+}
+footer{
+    text-align: center;
+    margin-left: -735px;
+    width: 1920px;
+    border-top: 2px solid #888;
+    margin-top: 50px;
+}
+.footer-links{
+    margin-top: 40px;
+}
+.conditions, .privacy, .help{
+    padding: 10px;
+    font-size: 12px;
+    text-decoration: none;
+}
+.copyright{
+    margin-top: 30px;
+    font-size: 12px;
+}
+/* hover */
+.forgot-password:hover, .help-button:hover, .conditions:hover, .privacy:hover, .help:hover{
+    text-decoration: underline;
+    color: #f5af00;
+}
+.continue-button:hover{
+    background-color:#f5af00;
+}
